@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding:0%;
+}
+
+.sidebar{
+    height: 100vh;
+
+}
+
+.sidebar a:only-child{
+    padding:8px;
+    text-decoration: none;
+    font-size: 20px;
+    width:90%;
+    
+}
+
+.sidebar a:hover {
+    color:white;
+    background-color: rgb(10, 8, 140);
+    
+}
+.active{
+    color:white;
+    background-color: rgb(10, 8, 140);
+}
+
+.main-body{
+    background-color: rgb(242, 242, 242);
+    height: 100vh;
+    width:100px;
+}
+#add_manual{
+    
+    padding: 5px;
+    margin-top:10px;
+}
+
+.user-profile{
+    height: 100vh;
+    
+}
+.my-cards div{
+    transition: transform 0.5s ease;
+}
+.my-cards div:hover {
+    transform: scale(1.1);
+}
+
+.shadow-card{
+    height:10rem;
+    border-radius:20px;
+    background-color: rgb(240, 242, 245);
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (max-width: 1200px) {
+    #card {
+      margin-bottom: 1rem;
+    }
+    .sidebar{
+        display: none;
+    }
+  }
